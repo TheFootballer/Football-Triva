@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4caf50 0%, #81c784 100%); /* Green gradient background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff; /* Default text color for better contrast */
+    text-align: center; /* Center text within the body */
+}
+
+.container {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent black background for the quiz container */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+#quiz-container {
+    display: none; /* Initially hidden until the game starts */
+    margin: 20px auto;
+}
+
+#question {
+    font-size: 28px; /* Larger font size for the question text */
+    margin-bottom: 20px;
+    color: #ffeb3b; /* Yellow color for the question text */
+}
+
+#options {
+    margin: 20px 0;
+}
+
+.option {
+    padding: 10px;
+    margin: 5px;
+    background-color: #ffeb3b; /* Yellow background for options */
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: #000; /* Black text color for options */
+    font-size: 20px; /* Increased font size for options */
+}
+
+.option:hover {
+    background-color: #fbc02d; /* Darker yellow on hover */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 20px; /* Larger font size for buttons */
+    cursor: pointer;
+    background-color: #ff9800; /* Orange button color */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    color: #fff; /* White text color for buttons */
+}
+
+button:hover {
+    background-color: #fb8c00; /* Darker orange on hover */
+}
+
+#score {
+    font-size: 24px; /* Larger font size for score display */
+    margin-top: 10px;
+}
